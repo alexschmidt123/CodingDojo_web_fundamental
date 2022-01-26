@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: rebeccapurple;
+    background-color: aqua;
+    margin-bottom: 1.5em;
+}
+
+a{
+    margin-top: 0.5em;
+    background-color: red;
+}
+
+span{
+    background-color: blue;
+    width: 500px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#left,#right {
+    width: 500px;
+    min-height: 200px;
+    /* One em unit is the width of the current font */
+    padding: 1.5em;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#left {
+    margin-top: 0.5em;
+    background-color: darkgoldenrod;
+}
+
+#right {
+    background-color: cornflowerblue;
+}
+
+.child{
+    margin-top: 0.5em;
+    width: 500px;
+    height:200px;
+    background-color: crimson;
+    padding: 1.5em;
+    border: 1px solid black;
+}
+
+#parent {
+    display : flex;
+}
+
+.block{
+    margin-top: 0.5em;
+    width: 500px;
+    height:200px;
+    background-color: rebeccapurple;
+    padding: 1.5em;
+    border: 1px solid black;
+}

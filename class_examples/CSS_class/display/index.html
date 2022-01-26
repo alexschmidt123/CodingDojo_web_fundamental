@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Display Property</h1>
+        <h2>Inline Elements</h2>
+        <p>Inline elements allow side-by-side neighbors. Width and height have no effect.</p>
+        <a href="">Click Here!</a>
+        <span>This is a span.</span>
+        <br><br>
+
+        <h2>Block</h2>
+        <p>Block elements do not allow side-by-side neighbors. Width and height do have effect.</p>
+        <div class="block">
+            <h2>BLOCK</h2>
+        </div>
+        <div class="block">
+            <h2>BLOCK</h2>
+        </div>
+        <br><br>
+
+        <h2>Inline-Block</h2>
+        <p>Inline-Block elements allow side-by-side neighbors. Width and height do have effect.</p>
+        <div id="left">
+            <h2>LEFT</h2>
+        </div>
+        <!-- Here is a space. As a result, there is small sliver between LIFT and RIGHT. Delect the space can solve this problem, but it is bad for coding formats.  -->
+        <div id="right">
+            <h2>RIGHT</h2>
+        </div>
+        <br><br>
+
+        <h2>Flex</h2>
+        <p>Display: Flex goes on the parent of the elements. The parent tells the children how to behave</p>
+        <div id="parent">
+            <div class="child">
+                <h2>CHILD</h2>
+            </div>
+            <div class="child">
+                <h2>CHILD</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

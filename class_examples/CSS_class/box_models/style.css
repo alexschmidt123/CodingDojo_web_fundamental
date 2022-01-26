@@ -1,0 +1,15 @@
+h1 {
+    color: rebeccapurple;
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 40px;
+    width: 500px;
+}
+
+* {
+    /* BE VERY CAREFUL */
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
