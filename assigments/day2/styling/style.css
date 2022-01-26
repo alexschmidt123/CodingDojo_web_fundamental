@@ -1,0 +1,31 @@
+* {
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+}
+
+#blue {
+    color: #2effff;
+}
+
+h2 {
+    color : white;
+    background-color: #663499;
+    font-style: italic;
+    text-align: center;
+    padding: 0.3em;
+}
+
+h3 {
+    text-align: right;
+    color:#20124e;
+    background-color: #9fc5f9;
+    text-decoration: underline;
+    padding: 0.5em;
+}
