@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: yellow;
+    min-height: 500px;
+}
+
+header {
+    background-color: lightgreen;
+    min-height: 100px;
+}
+
+nav {
+    background-color: lightblue;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+main {
+    background-color: lightcoral;
+    width: 70%;
+    min-height: 400px;
+    margin: 0 auto;
+}
+.left-menu{
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+
+.main-menu, .shop-menu {
+    background-color: hotpink;
+    min-height: 50px;
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.bear-logo {
+    width: 50px;
+}
+
+.search {
+    width:50px;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 400px;
+}
+
+section {
+    flex: 2;
+}
+
+aside {
+    flex:1;
+}

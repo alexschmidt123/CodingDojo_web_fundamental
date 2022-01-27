@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+h1 {
+    color: rebeccapurple;
+    margin: 1.5em auto;
+}
+
+img {
+    width: 150px;
+}
+
+.records {
+    background-color: burlywood;
+    min-height: 300px;
+    padding: 1.5em;
+    display:flex;
+    /* x-axis is controlled by justify-content */
+    justify-content: space-around;
+    /* y-axis is controlled by align-items */
+    align-items: center;
+}
+
+#nav {
+    background-color: chocolate;
+    list-style: none;
+    display: flex;
+    padding: 1.5em;
+    gap: 1.5em;
+}
