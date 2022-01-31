@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Deeper Dive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id ="title" onclick= "changeBg(this)" onclick="changeText(this)">DOM Deeper Dive</h1>
+    <h2 onclick= "changeText(this)">The "this" keyword</h2>
+    <p onclick= "display(this)">The "this keyword changes depending on the context in which it is used</p>
+    <button onclick="changeBg()">CLICK ME</button>
+    <div id="box" onmouseover="hoverOver(this)" onmouseout =hoverOut(this)></div>
+    <img onclick="changePic(this)" src="./images/deku1.png" altsrc='./images/deku2.png' alt="Deku">
+    <script src="./dom_deeper_dive.js"></script>
+</body>
+</html>

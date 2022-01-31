@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+#box {
+    background-color: coral;
+    width:300px;
+    min-height:300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    width: 300px;
+}
