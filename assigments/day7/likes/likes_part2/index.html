@@ -5,8 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>likes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="network center flexed"><h1>Network</h1></div>
+    <div class="feed center flexed"><h1>Your Feed</h1></div>
+    <div class="container center flexed">
+        <div class="side">
+            <img class="user_img center flexed feed" src="./image/user-circle.png" alt="user">
+            <div class="add_avatar center flexed feed">
+                <a href="http://">Add an avatar</a>
+            </div>
+            <div class="name center flexed feed"><h2>James Deo</h2></div>
+        </div>
+        <div class="main">
+            <div class="feature">
+                <div class="top flexed place">
+                    <div class="name flexed place">
+                        <h1>Neil M</h1>
+                    </div>
+                    <div class="likes flexed place">
+                        <h3 id="like-count1">9</h3>
+                        <h3>like(s)</h3>
+                    </div>
+                    <div class="click flexed place">
+                        <button onclick="incrementCount1()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom flexed">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="http://">link</a></p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="top flexed place">
+                    <div class="name flexed place">
+                        <h1>Nichole K</h1>
+                    </div>
+                    <div class="likes flexed place">
+                        <h3 id="like-count2">12</h3>
+                        <h3>like(s)</h3>
+                    </div>
+                    <div class="click flexed place">
+                        <button onclick="incrementCount2()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom flexed">
+                    <p>Just finish my <a href="http://">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="top flexed place">
+                    <div class="name flexed place">
+                        <h1>Jim R</h1>
+                    </div>
+                    <div class="likes flexed place">
+                        <h3 id="like-count3">9</h3>
+                        <h3>like(s)</h3>
+                    </div>
+                    <div class="click flexed place">
+                        <button onclick="incrementCount3()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom flexed">
+                    <p>I can't stop listening to <a href="http://">new album.</a> Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
