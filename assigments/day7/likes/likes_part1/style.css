@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invisiable {
+    color: transparent;
+    background-color: transparent;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    flex: 5;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 0;
+}
+
+.top, .bottom {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.side {
+    flex: 2;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 0;
+}
+
+.click button {
+    padding: 0 0.5em;
+    font-size: large;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 2px 3px black;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: #fdd765;
+}
+
+.click button:hover {
+    background-color: #efba1a;
+}
+
+.click button:active {
+    position: relative;
+    top: 1px;
+}
+
+.likes {
+    gap: 5px;
+}
