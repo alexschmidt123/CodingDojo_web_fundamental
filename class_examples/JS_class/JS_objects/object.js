@@ -39,5 +39,6 @@ console.log(myCar['model']);
 
 // set values using dot notation
 myCar['model'] = "Corolla";
+console.log(myCar['model']);
 
 myCar.beepHorn();

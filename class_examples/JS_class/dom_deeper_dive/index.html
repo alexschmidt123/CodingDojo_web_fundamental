@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,25 @@
     <title>DOM Deeper Dive</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 id ="title" onclick= "changeBg(this)" onclick="changeText(this)">DOM Deeper Dive</h1>
-    <h2 onclick= "changeText(this)">The "this" keyword</h2>
-    <p onclick= "display(this)">The "this keyword changes depending on the context in which it is used</p>
+    <!-- 1. one click two functions, what does 'this' mean? -->
+    <h1 id="title" onclick="changeBg(this)" onclick="changeText(this)">DOM Deeper Dive</h1>
+
+    <!-- 2. I can get original text if I click again -->
+    <h2 onclick="changeText(this)">The "this" keyword</h2>
+
+    <h2 id="demo" onclick="changeText1()">The "this" keyword</h2>
+
+    <p onclick="display(this)">The "this keyword changes depending on the context in which it is used</p>
+
     <button onclick="changeBg()">CLICK ME</button>
-    <div id="box" onmouseover="hoverOver(this)" onmouseout =hoverOut(this)></div>
+
+    <div id="box" onmouseover="hoverOver(this)" onmouseout=hoverOut()></div>
+
     <img onclick="changePic(this)" src="./images/deku1.png" altsrc='./images/deku2.png' alt="Deku">
+
     <script src="./dom_deeper_dive.js"></script>
 </body>
+
 </html>

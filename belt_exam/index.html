@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingDojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="mb">
+        <div class="container flexed">
+            <h1 class="text-white">Gaming<span class="text-purple">Dojo</span></h1>
+            <div class="menu-right flexed">
+                <select>
+                    <option>Euro €</option>
+                </select>
+                <img src="./images/cart-light.png" alt="Shopping Cart">
+                <p id="cart-count" class="text-white">0</p>
+                <img src="./images/search-light.png" alt="Search">
+            </div>
+        </div>
+    </header>
+
+
+    <!-- container -->
+    <div class="container">
+        <!-- carousel start -->
+        <div class="carousel">
+            <h2 class="mb">Highlights</h2>
+            <div class="carousel-control flexed mb">
+                <img onclick="imageBack()" src="./images/chevron-left.png" alt="Left">
+                <img id="carousel-img" src="./images/pixel-ninjas-2.png" alt="Pixel Ninjas">
+                <img onclick="imageForward()" class="flipped" src="./images/chevron-left.png" alt="Right">
+            </div>
+        </div>
+        <div class="flexed indicators">
+            <div class="indicator mb bg-grey"></div>
+            <div class="indicator mb bg-purple"></div>
+            <div class="indicator mb bg-grey"></div>
+            <div class="indicator mb bg-grey"></div>
+        </div>
+        <!-- carousel end -->
+        <!-- features start -->
+        <div class="features flex-start">
+            <!-- cafe neko start -->
+            <div class="feature">
+                <img class="feature-img" src="./images/cafe-neko.png" alt="Cafe Neko">
+                <div class="feature-content">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <img class="icon mb" src="./images/windows.png" alt="Windows">
+                    <img class="icon mb" src="./images/apple.png" alt="Apple">
+                    <div class="purchase flexed">
+                        <button class="text-white bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="new-price">€10.49</p>
+                        </div>
+                        <button onclick="incrementCount()" class="text-white bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- cafe neko end -->
+            <!-- Pixel Ninjas start -->
+            <div class="feature">
+                <img class="feature-img" src="./images/pixel-ninjas-2.png" alt="Pixel Ninjas 2">
+                <div class="feature-content">
+                    <h3>Pixel Ninjas 2</h3>
+                    <img class="icon mb" src="./images/windows.png" alt="Windows">
+                    <img class="icon mb" src="./images/apple.png" alt="Apple">
+                    <div class="purchase flexed">
+                        <button class="text-white bg-purple">-10%</button>
+                        <div class="prices">
+                            <p class="old-price">€8.19</p>
+                            <p class="new-price">€7.39</p>
+                        </div>
+                        <button onclick="incrementCount()" class="text-white bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Pixel Ninjas end -->
+            <!-- Stone Punk start -->
+            <div class="feature">
+                <img class="feature-img" src="./images/stonepunk.png" alt="Stonepunk">
+                <div class="feature-content">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <img class="icon mb" src="./images/windows.png" alt="Windows">
+                    <img class="icon mb" src="./images/apple.png" alt="Apple">
+                    <img onclick="linux()" src="./images/linux.png" alt="Linux" class="icon mb">
+                    <div class="purchase flexed">
+                        <button class="text-white bg-purple">NEW</button>
+                        <div class="prices">
+                            <p class="new-price">€19.99</p>
+                        </div>
+                        <button onclick="incrementCount()" class="text-white bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Stone Punk end -->
+        </div>
+        <!-- features end -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

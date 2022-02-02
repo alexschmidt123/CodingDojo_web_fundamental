@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title" onclick="disappear(this)">DOCUMENT OBJECT MODEL</h1>
+    <!-- 1. id can just be applied on one element?-->
+    <h1 id="title">DOCUMENT OBJECT MODEL1</h1>
+    <h1 onclick="disappear(this)">DOCUMENT OBJECT MODEL2</h1>
+    <h1 id="title" onclick="disappear(this)">DOCUMENT OBJECT MODEL3</h1>
     <p>The this keyword changes depending on context.</p>
     <button onclick="disappear(this)">CLICK ME</button>
     <div onclick="disappear(this)">
         <h2>hello</h2>
     </div>
+    <!-- 2. how about class-->
+    <h3 class="footer">TEST1</h3>
+    <h3 class="footer">TEST1</h3>
     <script src="./script.js"></script>
 </body>
 </html>

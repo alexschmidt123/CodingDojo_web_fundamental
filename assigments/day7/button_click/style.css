@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    ;
+}
+
+.flexed {
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    margin: 0 auto;
+    width: 70%;
+    justify-content: space-between;
+    background-color: #cccccc;
+    padding: .7em 1em;
+}
+
+.search {
+    border: 2px solid black;
+}
+
+.login button {
+    background-color: #2b78e4;
+    color: white;
+    padding: .5em 1em;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.main {
+    flex: 2;
+    width: 100%;
+    margin-top: 0;
+}
+
+.feature {
+    border: 2px solid black;
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    gap: 40px;
+}
+
+
+.left {
+    flex: 2;
+}
+
+.left button {
+    border: 2px solid black;
+    box-shadow: 2px 4px black;
+    background-color: #ffd966;
+    height: 40px;
+    width: 80%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.right {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.right p {
+    margin-right: 30px;
+}
+
+.side {
+    flex: 1;
+    border: 2px solid black;
+    height: 250px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+.top h1 {
+    font-size: larger;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.top h1 strong {
+    font-size: x-large;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.bottom button {
+    border: 2px solid black;
+    box-shadow: 2px 4px black;
+    background-color: #93c47d;
+    height: 40px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.bottom button h3 {
+    text-align: center;
+}
+
+a{
+    color: blue;
+}

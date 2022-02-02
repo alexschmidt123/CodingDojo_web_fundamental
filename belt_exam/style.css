@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+/* utility classes start */
+
+.container {
+    /* background-color: yellow; */
+    min-height: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-purple {
+    color: #9828ff;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5em;
+}
+
+.mb {
+    margin-bottom: 1.5rem;
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
+
+.bg-purple {
+    background-color: #9828ff;
+}
+
+.bg-green {
+    background-color: #69a84f;
+}
+
+.bg-grey {
+    background-color: darkgray;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+
+/* utility classes end */
+
+
+/* header classes start */
+
+header {
+    background-color: black;
+    min-height: 50px;
+}
+
+.menu-right {
+    /* background-color: blue; */
+    min-height: 50px;
+}
+
+.menu-right img {
+    width: 30px;
+}
+
+
+/* header classes end */
+
+
+/* carousel classes start */
+
+.carousel {
+    /* background-color: chartreuse; */
+    min-height: 100px;
+}
+
+.carousel-control {
+    padding: 0 1.5rem;
+}
+
+.carousel-control img {
+    cursor: pointer;
+}
+
+
+/* carousel classes end */
+
+
+/* features classes start */
+
+.features {
+    /* background-color: burlywood; */
+    min-height: 100px;
+}
+
+.feature {
+    /* background-color: lightpink; */
+    flex: 1;
+    background-color: white;
+}
+
+.feature-content {
+    padding: 1.5em;
+}
+
+.feature-img {
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+}
+
+button {
+    padding: 1em .5em;
+    font-size: larger;
+    border: 0;
+}
+
+.prices {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.old-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: larger;
+}
+
+
+/* features classes end */
+
+.indicators {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.indicator {
+    width: 100px;
+    min-height: 5px;
+}
