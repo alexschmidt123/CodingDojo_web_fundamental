@@ -12,9 +12,12 @@ var title = document.querySelector('#title');
 console.log(title);
 title.innerHTML = "This text has been coopted by your new JavaScript Overlords THROUGH 'id'."
 
-var footer =  document.querySelector('.footer');
+var footer =  document.getElementsByClassName('footer');
 console.log(footer);
-footer.innerHTML = "This text has been coopted by your new JavaScript Overlords THROUGH 'class'."
+for(var i = 0; i < footer.length; i++){
+  footer[i].innerHTML = "This text has been coopted by your new JavaScript Overlords THROUGH 'class'."
+
+}
 
 function disappear(element){
   element.remove();
