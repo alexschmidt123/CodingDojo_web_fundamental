@@ -60,6 +60,7 @@ function item_random(arr) {
     if (arr.length==0){
         var x = Math.random();
         var item = Math.floor(x*temp.length);
+        
         arr.push(temp(item));
     }
     return arr;
