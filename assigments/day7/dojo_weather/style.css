@@ -86,11 +86,14 @@
 
 .cookie{
     border: 2px solid black;
-    min-height: 100px;
+    background-color: white;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2em;
+    position: fixed;
+    bottom: 1em;
+    width: 70%;
 }
 
 .text{
